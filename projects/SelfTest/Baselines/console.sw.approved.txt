@@ -286,6 +286,18 @@ with message:
   Everything is OK
 
 -------------------------------------------------------------------------------
+#995
+-------------------------------------------------------------------------------
+Compilation.tests.cpp:<line number>
+...............................................................................
+
+Compilation.tests.cpp:<line number>:
+PASSED:
+  REQUIRE( R"(foobar)" == std::string("foobar") )
+with expansion:
+  "foobar" == "foobar"
+
+-------------------------------------------------------------------------------
 'Not' checks that should fail
 -------------------------------------------------------------------------------
 Condition.tests.cpp:<line number>
@@ -8935,6 +8947,6 @@ Misc.tests.cpp:<line number>:
 PASSED:
 
 ===============================================================================
-test cases:  204 | 138 passed |  62 failed |  4 failed as expected
-assertions: 1075 | 933 passed | 121 failed | 21 failed as expected
+test cases:  205 | 139 passed |  62 failed |  4 failed as expected
+assertions: 1076 | 934 passed | 121 failed | 21 failed as expected
 

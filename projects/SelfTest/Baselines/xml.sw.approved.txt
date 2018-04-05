@@ -260,6 +260,17 @@
       </Section>
       <OverallResult success="true"/>
     </TestCase>
+    <TestCase name="#995" filename="projects/<exe-name>/UsageTests/Compilation.tests.cpp" >
+      <Expression success="true" type="REQUIRE" filename="projects/<exe-name>/UsageTests/Compilation.tests.cpp" >
+        <Original>
+          R"(foobar)" == std::string("foobar")
+        </Original>
+        <Expanded>
+          "foobar" == "foobar"
+        </Expanded>
+      </Expression>
+      <OverallResult success="true"/>
+    </TestCase>
     <TestCase name="'Not' checks that should fail" tags="[.][failing]" filename="projects/<exe-name>/UsageTests/Condition.tests.cpp" >
       <Expression success="false" type="CHECK" filename="projects/<exe-name>/UsageTests/Condition.tests.cpp" >
         <Original>
@@ -9882,7 +9893,7 @@ loose text artifact
       </Section>
       <OverallResult success="true"/>
     </TestCase>
-    <OverallResults successes="933" failures="122" expectedFailures="21"/>
+    <OverallResults successes="934" failures="122" expectedFailures="21"/>
   </Group>
-  <OverallResults successes="933" failures="121" expectedFailures="21"/>
+  <OverallResults successes="934" failures="121" expectedFailures="21"/>
 </Catch>

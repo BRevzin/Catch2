@@ -134,4 +134,9 @@ namespace { namespace CompilationTests {
         REQUIRE(t1 >= t2);
     }
 
+    // Stringifying of raw string literals used to fail on VS 2017 (15.2, 15.3)
+    TEST_CASE("#995") {
+        REQUIRE(R"(foobar)" == std::string("foobar"));
+    }
+
 }} // namespace CompilationTests

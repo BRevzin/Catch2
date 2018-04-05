@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuitesloose text artifact
 >
-  <testsuite name="<exe-name>" errors="17" failures="105" tests="1076" hostname="tbd" time="{duration}" timestamp="{iso8601-timestamp}">
+  <testsuite name="<exe-name>" errors="17" failures="105" tests="1077" hostname="tbd" time="{duration}" timestamp="{iso8601-timestamp}">
     <testcase classname="<exe-name>.global" name="# A test name that starts with a #" time="{duration}"/>
     <testcase classname="<exe-name>.global" name="#1005: Comparing pointer to int and long (NULL can be either on various systems)" time="{duration}"/>
     <testcase classname="<exe-name>.global" name="#1027" time="{duration}"/>
@@ -35,6 +35,7 @@ Misc.tests.cpp:<line number>
     <testcase classname="<exe-name>.global" name="#961 -- Dynamically created sections should all be reported/Looped section 2" time="{duration}"/>
     <testcase classname="<exe-name>.global" name="#961 -- Dynamically created sections should all be reported/Looped section 3" time="{duration}"/>
     <testcase classname="<exe-name>.global" name="#961 -- Dynamically created sections should all be reported/Looped section 4" time="{duration}"/>
+    <testcase classname="<exe-name>.global" name="#995" time="{duration}"/>
     <testcase classname="<exe-name>.global" name="'Not' checks that should fail" time="{duration}">
       <failure message="false != false" type="CHECK">
 Condition.tests.cpp:<line number>

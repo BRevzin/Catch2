@@ -29,6 +29,7 @@ Misc.tests.cpp:<line number>: passed: with 1 message: 'Everything is OK'
 Misc.tests.cpp:<line number>: passed: with 1 message: 'Everything is OK'
 Misc.tests.cpp:<line number>: passed: with 1 message: 'Everything is OK'
 Misc.tests.cpp:<line number>: passed: with 1 message: 'Everything is OK'
+Compilation.tests.cpp:<line number>: passed: R"(foobar)" == std::string("foobar") for: "foobar" == "foobar"
 Condition.tests.cpp:<line number>: failed: false != false
 Condition.tests.cpp:<line number>: failed: true != true
 Condition.tests.cpp:<line number>: failed: !true for: false
